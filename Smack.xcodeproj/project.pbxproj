@@ -11,6 +11,8 @@
 		D60BA7671FB55022007C6F28 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60BA7661FB55022007C6F28 /* AuthService.swift */; };
 		D60BA7691FB560ED007C6F28 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60BA7681FB560ED007C6F28 /* RoundedButton.swift */; };
 		D60BA76B1FB5733F007C6F28 /* UserDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60BA76A1FB5733F007C6F28 /* UserDataService.swift */; };
+		D60BA76D1FB5926F007C6F28 /* AvatarPickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60BA76C1FB5926F007C6F28 /* AvatarPickerVC.swift */; };
+		D60BA76F1FB59481007C6F28 /* AvatarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60BA76E1FB59481007C6F28 /* AvatarCell.swift */; };
 		D63D1A011FB3F98900CA2F4F /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D63D1A001FB3F98900CA2F4F /* SWRevealViewController.m */; };
 		D63D1A061FB402F100CA2F4F /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63D1A051FB402F100CA2F4F /* ChatVC.swift */; };
 		D63D1A081FB402FE00CA2F4F /* ChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63D1A071FB402FE00CA2F4F /* ChannelVC.swift */; };
@@ -30,6 +32,8 @@
 		D60BA7661FB55022007C6F28 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		D60BA7681FB560ED007C6F28 /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 		D60BA76A1FB5733F007C6F28 /* UserDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataService.swift; sourceTree = "<group>"; };
+		D60BA76C1FB5926F007C6F28 /* AvatarPickerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarPickerVC.swift; sourceTree = "<group>"; };
+		D60BA76E1FB59481007C6F28 /* AvatarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarCell.swift; sourceTree = "<group>"; };
 		D63D19FE1FB3F98700CA2F4F /* Smack-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Smack-Bridging-Header.h"; sourceTree = "<group>"; };
 		D63D19FF1FB3F98800CA2F4F /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		D63D1A001FB3F98900CA2F4F /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
@@ -103,6 +107,7 @@
 				D63D1A071FB402FE00CA2F4F /* ChannelVC.swift */,
 				D63D1A0E1FB44BC200CA2F4F /* LoginVC.swift */,
 				D64029E91FB4CD3100FC5060 /* CreateAccountVC.swift */,
+				D60BA76C1FB5926F007C6F28 /* AvatarPickerVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -112,6 +117,7 @@
 			children = (
 				D63D1A091FB4077D00CA2F4F /* GradientView.swift */,
 				D60BA7681FB560ED007C6F28 /* RoundedButton.swift */,
+				D60BA76E1FB59481007C6F28 /* AvatarCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -292,6 +298,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D63D1A081FB402FE00CA2F4F /* ChannelVC.swift in Sources */,
+				D60BA76D1FB5926F007C6F28 /* AvatarPickerVC.swift in Sources */,
 				D60BA7691FB560ED007C6F28 /* RoundedButton.swift in Sources */,
 				D63D1A061FB402F100CA2F4F /* ChatVC.swift in Sources */,
 				D60BA76B1FB5733F007C6F28 /* UserDataService.swift in Sources */,
@@ -299,6 +306,7 @@
 				D60BA7671FB55022007C6F28 /* AuthService.swift in Sources */,
 				D63D1A0F1FB44BC200CA2F4F /* LoginVC.swift in Sources */,
 				D63D1A0A1FB4077D00CA2F4F /* GradientView.swift in Sources */,
+				D60BA76F1FB59481007C6F28 /* AvatarCell.swift in Sources */,
 				D679ABA61FB3EC6800049C4A /* AppDelegate.swift in Sources */,
 				D63D1A011FB3F98900CA2F4F /* SWRevealViewController.m in Sources */,
 				D63D1A0D1FB448DF00CA2F4F /* Constants.swift in Sources */,

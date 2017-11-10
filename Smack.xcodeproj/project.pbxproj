@@ -24,6 +24,7 @@
 		D679ABAB1FB3EC6800049C4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D679ABA91FB3EC6800049C4A /* Main.storyboard */; };
 		D679ABAD1FB3EC6800049C4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D679ABAC1FB3EC6800049C4A /* Assets.xcassets */; };
 		D679ABB01FB3EC6800049C4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D679ABAE1FB3EC6800049C4A /* LaunchScreen.storyboard */; };
+		D69357AF1FB5AA44002AEDB9 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69357AE1FB5AA44002AEDB9 /* CircleImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +50,7 @@
 		D679ABAC1FB3EC6800049C4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D679ABAF1FB3EC6800049C4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D679ABB11FB3EC6800049C4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D69357AE1FB5AA44002AEDB9 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		E17FA4B8C01DD608C10DC478 /* Pods-Smack.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smack.release.xcconfig"; path = "Pods/Target Support Files/Pods-Smack/Pods-Smack.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -118,6 +120,7 @@
 				D63D1A091FB4077D00CA2F4F /* GradientView.swift */,
 				D60BA7681FB560ED007C6F28 /* RoundedButton.swift */,
 				D60BA76E1FB59481007C6F28 /* AvatarCell.swift */,
+				D69357AE1FB5AA44002AEDB9 /* CircleImage.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -300,6 +303,7 @@
 				D63D1A081FB402FE00CA2F4F /* ChannelVC.swift in Sources */,
 				D60BA76D1FB5926F007C6F28 /* AvatarPickerVC.swift in Sources */,
 				D60BA7691FB560ED007C6F28 /* RoundedButton.swift in Sources */,
+				D69357AF1FB5AA44002AEDB9 /* CircleImage.swift in Sources */,
 				D63D1A061FB402F100CA2F4F /* ChatVC.swift in Sources */,
 				D60BA76B1FB5733F007C6F28 /* UserDataService.swift in Sources */,
 				D64029EA1FB4CD3100FC5060 /* CreateAccountVC.swift in Sources */,

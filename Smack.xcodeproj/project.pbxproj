@@ -34,6 +34,7 @@
 		D6938CC51FB6DAC700F5BAD2 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6938CC31FB6DAC700F5BAD2 /* ProfileVC.swift */; };
 		D6938CC61FB6DAC700F5BAD2 /* ProfileVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6938CC41FB6DAC700F5BAD2 /* ProfileVC.xib */; };
 		D697E97B1FB926FF009F6061 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = D697E97A1FB926FF009F6061 /* Message.swift */; };
+		D697E97D1FB92F0A009F6061 /* KeyboardBoundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D697E97C1FB92F0A009F6061 /* KeyboardBoundView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -69,6 +70,7 @@
 		D6938CC31FB6DAC700F5BAD2 /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
 		D6938CC41FB6DAC700F5BAD2 /* ProfileVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileVC.xib; sourceTree = "<group>"; };
 		D697E97A1FB926FF009F6061 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		D697E97C1FB92F0A009F6061 /* KeyboardBoundView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardBoundView.swift; sourceTree = "<group>"; };
 		E17FA4B8C01DD608C10DC478 /* Pods-Smack.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smack.release.xcconfig"; path = "Pods/Target Support Files/Pods-Smack/Pods-Smack.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -144,6 +146,7 @@
 				D60BA76E1FB59481007C6F28 /* AvatarCell.swift */,
 				D69357AE1FB5AA44002AEDB9 /* CircleImage.swift */,
 				D652881A1FB824F60089EA9D /* ChannelCell.swift */,
+				D697E97C1FB92F0A009F6061 /* KeyboardBoundView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -337,6 +340,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D697E97D1FB92F0A009F6061 /* KeyboardBoundView.swift in Sources */,
 				D63CD6A31FB837A80070E832 /* SocketService.swift in Sources */,
 				D6938CC51FB6DAC700F5BAD2 /* ProfileVC.swift in Sources */,
 				D652881B1FB824F60089EA9D /* ChannelCell.swift in Sources */,

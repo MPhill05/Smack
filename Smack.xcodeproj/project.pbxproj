@@ -20,7 +20,6 @@
 		D63D1A0A1FB4077D00CA2F4F /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63D1A091FB4077D00CA2F4F /* GradientView.swift */; };
 		D63D1A0D1FB448DF00CA2F4F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63D1A0C1FB448DF00CA2F4F /* Constants.swift */; };
 		D64029EA1FB4CD3100FC5060 /* CreateAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64029E91FB4CD3100FC5060 /* CreateAccountVC.swift */; };
-		D65288171FB81EBE0089EA9D /* MessageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65288161FB81EBE0089EA9D /* MessageService.swift */; };
 		D65288191FB81EE40089EA9D /* Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65288181FB81EE40089EA9D /* Channel.swift */; };
 		D652881B1FB824F60089EA9D /* ChannelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D652881A1FB824F60089EA9D /* ChannelCell.swift */; };
 		D65288201FB829380089EA9D /* AddChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D652881E1FB829380089EA9D /* AddChannelVC.swift */; };
@@ -35,6 +34,8 @@
 		D6938CC61FB6DAC700F5BAD2 /* ProfileVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6938CC41FB6DAC700F5BAD2 /* ProfileVC.xib */; };
 		D697E97B1FB926FF009F6061 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = D697E97A1FB926FF009F6061 /* Message.swift */; };
 		D697E97D1FB92F0A009F6061 /* KeyboardBoundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D697E97C1FB92F0A009F6061 /* KeyboardBoundView.swift */; };
+		D697E97F1FB930F4009F6061 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D697E97E1FB930F4009F6061 /* MessageCell.swift */; };
+		D697E9811FB9589A009F6061 /* MessageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D697E9801FB9589A009F6061 /* MessageService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,7 +55,6 @@
 		D63D1A091FB4077D00CA2F4F /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		D63D1A0C1FB448DF00CA2F4F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		D64029E91FB4CD3100FC5060 /* CreateAccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountVC.swift; sourceTree = "<group>"; };
-		D65288161FB81EBE0089EA9D /* MessageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageService.swift; sourceTree = "<group>"; };
 		D65288181FB81EE40089EA9D /* Channel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Channel.swift; sourceTree = "<group>"; };
 		D652881A1FB824F60089EA9D /* ChannelCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelCell.swift; sourceTree = "<group>"; };
 		D652881E1FB829380089EA9D /* AddChannelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddChannelVC.swift; sourceTree = "<group>"; };
@@ -71,6 +71,8 @@
 		D6938CC41FB6DAC700F5BAD2 /* ProfileVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileVC.xib; sourceTree = "<group>"; };
 		D697E97A1FB926FF009F6061 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		D697E97C1FB92F0A009F6061 /* KeyboardBoundView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardBoundView.swift; sourceTree = "<group>"; };
+		D697E97E1FB930F4009F6061 /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
+		D697E9801FB9589A009F6061 /* MessageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageService.swift; sourceTree = "<group>"; };
 		E17FA4B8C01DD608C10DC478 /* Pods-Smack.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smack.release.xcconfig"; path = "Pods/Target Support Files/Pods-Smack/Pods-Smack.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -108,8 +110,8 @@
 			children = (
 				D60BA7661FB55022007C6F28 /* AuthService.swift */,
 				D60BA76A1FB5733F007C6F28 /* UserDataService.swift */,
-				D65288161FB81EBE0089EA9D /* MessageService.swift */,
 				D63CD6A21FB837A80070E832 /* SocketService.swift */,
+				D697E9801FB9589A009F6061 /* MessageService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -147,6 +149,7 @@
 				D69357AE1FB5AA44002AEDB9 /* CircleImage.swift */,
 				D652881A1FB824F60089EA9D /* ChannelCell.swift */,
 				D697E97C1FB92F0A009F6061 /* KeyboardBoundView.swift */,
+				D697E97E1FB930F4009F6061 /* MessageCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -346,11 +349,11 @@
 				D652881B1FB824F60089EA9D /* ChannelCell.swift in Sources */,
 				D63D1A081FB402FE00CA2F4F /* ChannelVC.swift in Sources */,
 				D60BA76D1FB5926F007C6F28 /* AvatarPickerVC.swift in Sources */,
+				D697E97F1FB930F4009F6061 /* MessageCell.swift in Sources */,
 				D60BA7691FB560ED007C6F28 /* RoundedButton.swift in Sources */,
 				D697E97B1FB926FF009F6061 /* Message.swift in Sources */,
 				D65288191FB81EE40089EA9D /* Channel.swift in Sources */,
 				D69357AF1FB5AA44002AEDB9 /* CircleImage.swift in Sources */,
-				D65288171FB81EBE0089EA9D /* MessageService.swift in Sources */,
 				D63D1A061FB402F100CA2F4F /* ChatVC.swift in Sources */,
 				D60BA76B1FB5733F007C6F28 /* UserDataService.swift in Sources */,
 				D64029EA1FB4CD3100FC5060 /* CreateAccountVC.swift in Sources */,
@@ -359,6 +362,7 @@
 				D65288201FB829380089EA9D /* AddChannelVC.swift in Sources */,
 				D60BA76F1FB59481007C6F28 /* AvatarCell.swift in Sources */,
 				D679ABA61FB3EC6800049C4A /* AppDelegate.swift in Sources */,
+				D697E9811FB9589A009F6061 /* MessageService.swift in Sources */,
 				D63D1A011FB3F98900CA2F4F /* SWRevealViewController.m in Sources */,
 				D63D1A0D1FB448DF00CA2F4F /* Constants.swift in Sources */,
 				D67891711FB7137500F0F015 /* LoginVC.swift in Sources */,

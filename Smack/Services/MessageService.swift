@@ -23,14 +23,14 @@ class MessageService {
             
             if response.result.error == nil {
                 guard let data = response.data else { return }
-//                Swift 4 JSON parsing
-//                do {
-//                    self.channels = try JSONDecoder().decode([Channel].self, from: data)
-//                } catch let error {
-//                    debugPrint(error as Any)
-//                }
+                //                Swift 4 JSON parsing
+                //                do {
+                //                    self.channels = try JSONDecoder().decode([Channel].self, from: data)
+                //                } catch let error {
+                //                    debugPrint(error as Any)
+                //                }
                 
-//                Swift 3 JSON parsing
+                //                Swift 3 JSON parsing
                 if let json = JSON(data: data).array {
                     for item in json {
                         let name = item["name"].stringValue
@@ -49,8 +49,9 @@ class MessageService {
         }
     }
     
-    func findAllMessagesForChannel(channelId: String, completion: @escaping CompletionHandler) {
+    func findAllMessageForChannel(channelId: String, completion: @escaping CompletionHandler) {
         Alamofire.request("\(URL_GET_MESSAGES)\(channelId)", method: .get, parameters: nil, encoding: JSONEncoding.default, headers: BEARER_HEADER).responseJSON { (response) in
+            
             if response.result.error == nil {
                 self.clearMessages()
                 guard let data = response.data else { return }
@@ -86,3 +87,4 @@ class MessageService {
     }
     
 }
+
